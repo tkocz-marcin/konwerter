@@ -1,0 +1,138 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: lato;
+  min-height: 100vh;
+  margin: 0 0;
+  overflow-x: hidden;
+  background: #f7f7f7;
+  font-size: 1.6rem; }
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+.header {
+  margin: 2vh 0; }
+
+.converter {
+  width: 60vw;
+  padding: 3vh 2vw;
+  margin: 5vh auto; }
+
+.conventer_text {
+  font-size: 2rem; }
+
+.conventer_text--bold {
+  font-weight: 700; }
+
+.conventer_input_content {
+  background: #fff;
+  padding: calc(20px + 0px);
+  position: relative; }
+
+.fa-eur {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 4rem;
+  -webkit-transform: rotate(-25deg);
+      -ms-transform: rotate(-25deg);
+          transform: rotate(-25deg); }
+
+.input_eur_label {
+  color: #A19392;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  display: block; }
+
+.input_eur {
+  padding: 1vh 1vw; }
+
+.input_border {
+  border: 1px solid #59D999;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: no-wrap;
+      -ms-flex-wrap: no-wrap;
+          flex-wrap: no-wrap;
+  height: 50px;
+  overflow: hidden; }
+
+.btn {
+  cursor: pointer; }
+
+.btn--convert {
+  background: #59D999;
+  color: #fff;
+  text-transform: uppercase; }
+
+.input_eur,
+.btn--convert {
+  font-size: 1.6rem;
+  font-weight: 700;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.container_tiles {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.tile {
+  width: calc(50% - 3px);
+  margin-bottom: 6px;
+  padding: 2vh 0; }
+
+.tile_amount {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #A19392;
+  background: white;
+  padding: 4vh 0; }
+
+.tile_pln {
+  margin-top: 1vh;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000; }
+
+.tile_info {
+  color: #A19392; }
+
+.fa-clock-o {
+  margin-right: 2px; }
+
+@media screen and (max-width: 420px) {
+  .tile {
+    width: 100%; }
+
+  .input_border {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    height: 120px; } }
+@media screen and (max-width: 640px) {
+  .converter {
+    width: 90vw;
+    padding: 1vh 1vw;
+    margin: 1vh auto; } }
+
+/*# sourceMappingURL=style.css.map */
